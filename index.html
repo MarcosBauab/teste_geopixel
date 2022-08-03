@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Geopixel</title>
+    <link rel="shortcut icon" href="./public/relogio.png">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body id="corpo" onload="relogio()">
+    <div id="wrapper">
+        <section class="metade">
+            <div id="relogio">
+                <header>
+                    <h1 id="h">Hora do dia.</h1>
+                </header>
+                <main>
+                    <div id="horas">
+                        </div><div>
+                        <img id="img" src="" alt="foto">
+                    </div>
+                </main>
+            </div>
+            <div id="formulario">
+                
+                <select name="opts" id="opts">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                </select>
+                <input type="text" name="texto" id="texto" placeholder="Insira um item">
+
+                <div class="buttons">
+                    <button>Adicionar</button>
+                    <button>Remover</button>
+                    <button>Limpar caixa</button>
+
+                </div>
+
+                <p>Texto</p>
+                
+            </div>
+        </section>
+        <section class="metade" id="bolinha">
+            <div id="ambiente"></div>
+        </section>
+    </div>
+    <footer>
+        <a href="https://github.com/MarcosBauab" target="_blank">&copy; Marcos Bauab</a>
+    </footer>
+    <script src="./src/relogio.js"></script>
+</body>
+</html>
