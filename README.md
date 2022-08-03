@@ -9,11 +9,11 @@ Teste feito para o estágio da Geopixel!
 
 ## Learnings ✔
 
-1. 
+1. Javascript em tempo real
 
 **Extra funcionalities :**
 
-* 
+* Imagens para cada horário
 
 ## Using 🕹
 

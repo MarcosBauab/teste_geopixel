@@ -1,7 +1,29 @@
 div#ambiente{
+
     display: flex;
     height: 100%;
     width: 100%;
+
     border: 1px solid red;
     border-radius: 8px;
+    
+    position: relative;
+
+}
+
+div#ambiente div#bolinha1{
+
+    background-color: red;
+
+    width: 50px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    transition: 1s top, 1s left;
+
 }
